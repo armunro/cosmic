@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmic", "Cosmic\Cosmic.csproj", "{578B9D99-0C57-4EBC-9600-1092D1F47A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmic.TestConsole", "Cosmic.TestConsole\Cosmic.TestConsole.csproj", "{09154486-9903-4B32-A2A8-BC94E18F9BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmic.CommandLine", "Cosmic.CommandLine\Cosmic.CommandLine.csproj", "{FF9243F5-3C8F-4300-AC05-D837B39A5428}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{578B9D99-0C57-4EBC-9600-1092D1F47A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578B9D99-0C57-4EBC-9600-1092D1F47A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578B9D99-0C57-4EBC-9600-1092D1F47A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578B9D99-0C57-4EBC-9600-1092D1F47A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09154486-9903-4B32-A2A8-BC94E18F9BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09154486-9903-4B32-A2A8-BC94E18F9BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09154486-9903-4B32-A2A8-BC94E18F9BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09154486-9903-4B32-A2A8-BC94E18F9BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9243F5-3C8F-4300-AC05-D837B39A5428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9243F5-3C8F-4300-AC05-D837B39A5428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9243F5-3C8F-4300-AC05-D837B39A5428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9243F5-3C8F-4300-AC05-D837B39A5428}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

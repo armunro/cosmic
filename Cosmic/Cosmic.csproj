@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>ARMunro.Cosmic</Title>
+        <RepositoryType>Dependency</RepositoryType>
+        <Version>0.0.7</Version>
+        <PackageId>ARMunro.Cosmic</PackageId>
+        <Authors>Andrew Munro</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Autofac" Version="8.0.0" />
+      <PackageReference Include="Autofac.Extras.AttributeMetadata" Version="6.0.0" />
+      <PackageReference Include="Serilog" Version="4.0.1" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+      <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+      <PackageReference Include="YamlDotNet" Version="16.0.0" />
+    </ItemGroup>
+
+</Project>
