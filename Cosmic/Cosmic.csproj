@@ -7,7 +7,7 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>ARMunro.Cosmic</Title>
         <RepositoryType>Dependency</RepositoryType>
-        <Version>0.0.7</Version>
+        <Version>0.0.8</Version>
         <PackageId>ARMunro.Cosmic</PackageId>
         <Authors>Andrew Munro</Authors>
     </PropertyGroup>
