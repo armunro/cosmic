@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: cosmic-build-artifacts
-          path: ./
+          path: ./*/bin/Release/net7.0/*
