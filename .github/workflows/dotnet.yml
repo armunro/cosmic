@@ -19,6 +19,8 @@ jobs:
         run: dotnet build --configuration Release
       - name: Pack NuGet package
         run: dotnet pack --configuration Release --no-build --output ./nuget
+      - name: Register Github Registry
+        run: dotnet nuget add source --username armunro --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/armunro/index.json"
       - name: Publish to GitHub Packages
         run: dotnet nuget push ./nuget/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source "github"
         env:
