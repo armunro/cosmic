@@ -20,11 +20,10 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release
       - name: Pack NuGet package
-        run: dotnet pack --configuration Release --no-build --output ./nuget 
+        run: dotnet pack --configuration Release --no-build --output ./
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: cosmic-build-artifacts
           path: |
-            ./*/bin/Release/net7.0/*
-            ./nuget
+            ./*.nupkg
