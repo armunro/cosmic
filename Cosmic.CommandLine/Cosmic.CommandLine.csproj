@@ -7,7 +7,7 @@
         <Authors>Andrew Munro</Authors>
         <RepositoryType>Dependency</RepositoryType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.0.8</Version>
+        <Version>0.8.0</Version>
         <Description>Utilities and best practices that follow COSMIC standards</Description>
         <PackageId>ARMunro.Cosmic.CommandLine</PackageId>
     </PropertyGroup>
