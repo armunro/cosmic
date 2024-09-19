@@ -5,7 +5,7 @@
 
 ## Cosmic.CommandLine
 
-```
+```bash
 CosmicApp app = new CliApp().RegisterDependencies(builder =>
     {
         builder.RegisterCosmicCommands("A sample commandline app.");
