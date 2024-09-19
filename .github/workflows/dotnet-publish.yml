@@ -19,6 +19,6 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release /p:Version=${{ github.ref_name }}
       - name: Pack NuGet package
-        run: dotnet pack --configuration Release --no-build --output ./nuget
+        run: dotnet pack --configuration Release --no-build --output ./nuget /p:Version=${{ github.ref_name }}
       - name: Publish to GitHub Packages
         run: dotnet nuget push ./nuget/*.nupkg --skip-duplicate --no-symbols --api-key ${{ secrets.GITHUB_TOKEN }}
