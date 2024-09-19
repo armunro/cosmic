@@ -20,6 +20,4 @@ jobs:
       - name: Pack NuGet package
         run: dotnet pack --configuration Release --no-build --output ./nuget
       - name: Publish to GitHub Packages
-        run: dotnet nuget push ./nuget/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: dotnet nuget push ./nuget/*.nupkg
