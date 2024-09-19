@@ -1,4 +1,4 @@
-name: Build Dotnet 8
+name: Build
 on:
   push:
     branches: [ "main" ]
