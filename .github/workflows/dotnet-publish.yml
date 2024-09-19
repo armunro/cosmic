@@ -17,7 +17,7 @@ jobs:
         env:
           NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build
-        run: dotnet build --configuration Release /p:Version=${{ github.ref }}
+        run: dotnet build --configuration Release /p:Version=${{ github.ref_name }}
       - name: Pack NuGet package
         run: dotnet pack --configuration Release --no-build --output ./nuget
       - name: Publish to GitHub Packages
